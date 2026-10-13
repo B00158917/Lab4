@@ -20,6 +20,9 @@ public class PrintJob {
     public String getPages() {
         return pages;
     }
-
+    
+    public String toString(){
+        return getDoc_name();
+    }
     
 }
