@@ -62,5 +62,12 @@ public class QueueArrayBased implements QueueInterface {
                               "Queue empty");
     }  // end if
   }  // end peek
-   
+  //Create a displayQueue method in the QueueArrayBased class that displays or prints out the
+  //Queue horizontally and indicates which end is the front and which is the back.
+  public void displayQueue(){
+    System.out.print("Front: ");
+    for(int i = front; i < count; i++){
+      System.out.print(items[i] + " ");
+    }
+  }
 } // end QueueArrayBased
